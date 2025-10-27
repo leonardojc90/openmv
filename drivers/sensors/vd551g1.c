@@ -45,8 +45,8 @@
 #include "py/mphal.h"
 
 // Register from UM3224
-#define VD55G1_SYSTEM_FSM       0x001C
-#define VD55G1_CMD_STBY           0x0201
+#define VD55G1_SYSTEM_FSM 	0x001C
+#define VD55G1_CMD_STBY 	  0x0201
 #define UI_STATUS_DEVICE_MODEL_ID  0x0000
 #define UI_STATUS_DEVICE_DEVICE_ID  0x0004
 #define START_PATCH_ADDRESS 0x2000
