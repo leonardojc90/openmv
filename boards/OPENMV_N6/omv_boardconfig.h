@@ -196,7 +196,7 @@
 
 // Physical I2C buses.
 
-// I2C bus 3
+// I2C bus 2
 #define OMV_I2C2_ID                         (2)
 #define OMV_I2C2_SCL_PIN                    (&omv_pin_B10_I2C2)
 #define OMV_I2C2_SDA_PIN                    (&omv_pin_B11_I2C2)
@@ -210,6 +210,18 @@
 #define OMV_I2C4_ID                         (4)
 #define OMV_I2C4_SCL_PIN                    (&omv_pin_E13_I2C4)
 #define OMV_I2C4_SDA_PIN                    (&omv_pin_E14_I2C4)
+
+// Physical I3C buses.
+
+// I2C bus 1
+#define OMV_I3C1_ID                         (1)
+#define OMV_I3C1_SCL_PIN                    (&omv_pin_B8_I2C1)
+#define OMV_I3C1_SDA_PIN                    (&omv_pin_B9_I2C1)
+
+// I2C bus 2
+#define OMV_I3C2_ID                         (2)
+#define OMV_I3C2_SCL_PIN                    (&omv_pin_B10_I2C2)
+#define OMV_I3C2_SDA_PIN                    (&omv_pin_B11_I2C2)
 
 // Physical SPI buses.
 

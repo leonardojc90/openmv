@@ -80,7 +80,7 @@ typedef const stm32_gpio_t *omv_gpio_t;
 
 // This pointer will be set to its respective I2C handle which is defined in MicroPython along with
 // IRQ handlers, if this I2C is enabled in Micropython, or defined and handled in stm32_hal_msp.c.
-typedef I2C_HandleTypeDef *omv_i2c_dev_t;
+typedef void *omv_i2c_dev_t;
 
 #if defined(STM32N6)
 #define OMV_I2C_MAX_8BIT_XFER   (65536U - 16U)
